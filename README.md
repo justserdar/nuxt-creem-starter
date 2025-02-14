@@ -1,17 +1,13 @@
-![nuxt-ui-landing-social-card](https://github.com/nuxt-ui-pro/landing/assets/739984/d0919c96-e5f2-47e9-b460-44f87341218d)
+![Nuxt Creem](https://github.com/justserdar/nuxt-creem-starter/blob/main/public/nuxt-creemio-banner.png)
 
 # Nuxt Creem Landing Store
 
 This starter lets you get started with [Nuxt Creem](https://github.com/justserdar/nuxt-creem) quickly.
 
-![Nuxt Creem](/nuxt-creemio-banner.png)
-
 - [Live demo](https://creem.justserdar.dev/)
 - [Documentation](https://nuxt-creem.justserdar.dev/)
 
 [![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/landing)
-
-https://github.com/nuxt-ui-pro/landing/assets/904724/c7dd64a4-a09c-4cab-9572-92a02a5e06f9
 
 ## Quick Start
 

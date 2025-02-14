@@ -12,8 +12,8 @@ useHead({
 })
 
 useSeoMeta({
-  ogImage: '/nuxt-creemio-banner.png',
-  twitterImage: '/nuxt-creemio-banner.png',
+  ogImage: 'https://github.com/justserdar/nuxt-creem-starter/blob/main/public/nuxt-creemio-banner.png',
+  twitterImage: 'https://github.com/justserdar/nuxt-creem-starter/blob/main/public/nuxt-creemio-banner.png',
   twitterCard: 'summary_large_image'
 })
 </script>
