@@ -1,0 +1,66 @@
+<script setup lang="ts">
+// const nuxtApp = useNuxtApp()
+// const { activeHeadings, updateHeadings } = useScrollspy()
+
+const links = computed(() => [{
+  label: 'Home',
+  to: '/',
+  icon: 'i-heroicons-cube-transparent'
+}, {
+  label: 'Shop',
+  to: '/shop',
+  icon: 'i-heroicons-shopping-cart'
+}])
+
+// nuxtApp.hooks.hookOnce('page:finish', () => {
+//   updateHeadings([
+//     document.querySelector('#features'),
+//     document.querySelector('#pricing'),
+//     document.querySelector('#testimonials'),
+//     document.querySelector('#faq')
+//   ])
+// })
+</script>
+
+<template>
+  <UHeader :links="links">
+    <template #logo>
+      Nuxt Creem Starter<UBadge
+        label="Landing"
+        variant="subtle"
+        class="mb-0.5"
+      />
+    </template>
+
+    <template #right>
+      <UButton
+        label="GitHub"
+        color="white"
+        to="https://github.com/serdar-dev/nuxt-creem-starter"
+        external
+        variant="ghost"
+        trailing-icon="i-simple-icons-github"
+        class="hidden lg:flex"
+      />
+    </template>
+
+    <template #panel>
+      <UAsideLinks :links="links" />
+
+      <UDivider class="my-6" />
+
+      <UButton
+        label="GitHub"
+        color="white"
+        to="https://github.com/serdar-dev/nuxt-creem-starter"
+        external
+        variant="ghost"
+        trailing-icon="i-simple-icons-github"
+      />
+      <UButton
+        label="Get started"
+        block
+      />
+    </template>
+  </UHeader>
+</template>
