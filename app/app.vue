@@ -6,6 +6,13 @@ useHead({
   link: [
     { rel: 'icon', href: '/favicon.ico' }
   ],
+  script: [
+    {
+      'src': useRuntimeConfig().public.UMAMI_DOMAIN,
+      'defer': true,
+      'data-website-id': useRuntimeConfig().public.UMAMI_ID
+    }
+  ],
   htmlAttrs: {
     lang: 'en'
   }
