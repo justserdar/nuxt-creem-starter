@@ -34,7 +34,7 @@ const links = computed(() => [{
 
     <template #right>
       <UButton
-        label="GitHub"
+        label="Grab the Nuxt Creem Starter on GitHub"
         color="white"
         to="https://github.com/justserdar/nuxt-creem-starter"
         external
@@ -42,6 +42,7 @@ const links = computed(() => [{
         trailing-icon="i-simple-icons-github"
         class="hidden lg:flex"
       />
+      <UColorModeToggle />
     </template>
 
     <template #panel>
@@ -57,10 +58,7 @@ const links = computed(() => [{
         variant="ghost"
         trailing-icon="i-simple-icons-github"
       />
-      <UButton
-        label="Get started"
-        block
-      />
+      <UColorModeToggle />
     </template>
   </UHeader>
 </template>
