@@ -115,7 +115,6 @@ definePageMeta({
 })
 
 const { productId } = useRoute().params
-
 const { data: product, status } = await useFetch<CreemProduct>(`/api/v1/products`, {
   headers: {
     'Content-Type': 'application/json'

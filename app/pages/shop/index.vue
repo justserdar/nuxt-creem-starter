@@ -48,8 +48,11 @@
 </template>
 
 <script lang="ts" setup>
+import type { CreemProductList } from '#creem/shared/types'
+
 definePageMeta({
   layout: 'shop'
 })
-const { data: products } = await useFetch('/api/v1/products/list')
+
+const { data: products } = await useFetch<CreemProductList>('/api/v1/products/list')
 </script>

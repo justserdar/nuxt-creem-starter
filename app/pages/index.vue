@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CreemProduct, CreemProductList } from '~/types/creem'
+import type { CreemProduct, CreemProductList } from '#creem/shared/types'
 
 const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
 
@@ -73,7 +73,7 @@ useSeoMeta({
           v-if="status === 'pending'"
           title="Loading..."
           description="Loading products..."
-          :price="0"
+          price="0"
           :currency="'$'"
           :cycle="''"
           :highlight="false"
