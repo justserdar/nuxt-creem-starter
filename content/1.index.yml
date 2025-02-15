@@ -1,23 +1,29 @@
-title: Nuxt UI Pro - Landing template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: Nuxt Creem Starter Template
+description: Build your SaaS landing and start selling in seconds, built on top of Nuxt UI Pro to create beautiful & responsive Nuxt applications in minutes.
 hero:
   title: Build your SaaS landing and start selling in seconds
-  description: Try out the template below or use it as a starting point to build your own SaaS Landing pages or full blown SaaS store.
+  description: Try out the template below and look around the Shop pages, or directly use it as a starting point to build your own SaaS Landing pages or full blown SaaS store.
   headline:
     label: Made with Nuxt UI Pro
     to: https://ui.nuxt.com/pro
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: Get started with Creem.IO
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '#features'
+      to: https://creem.io
       size: xl
-    - label: Use this template
+    - label: Use the Nuxt UI Pro template
       icon: i-simple-icons-github
       size: xl
       color: gray
       to: https://github.com/nuxt-ui-pro/landing
+      target: _blank
+    - label: Use this Nuxt Creem Starter template
+      icon: i-simple-icons-github
+      size: xl
+      color: gray
+      to: https://github.com/justserdar/nuxt-creem-starter
       target: _blank
 logos:
   title: Trusted by the world's best

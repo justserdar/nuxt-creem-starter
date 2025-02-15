@@ -36,7 +36,7 @@ const links = computed(() => [{
       <UButton
         label="GitHub"
         color="white"
-        to="https://github.com/serdar-dev/nuxt-creem-starter"
+        to="https://github.com/justserdar/nuxt-creem-starter"
         external
         variant="ghost"
         trailing-icon="i-simple-icons-github"
@@ -50,9 +50,9 @@ const links = computed(() => [{
       <UDivider class="my-6" />
 
       <UButton
-        label="GitHub"
+        label="Grab the Nuxt Creem Starter on GitHub"
         color="white"
-        to="https://github.com/serdar-dev/nuxt-creem-starter"
+        to="https://github.com/justserdar/nuxt-creem-starter"
         external
         variant="ghost"
         trailing-icon="i-simple-icons-github"
