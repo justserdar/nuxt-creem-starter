@@ -34,7 +34,7 @@
             cycle="/month"
             :highlight="false"
             :badge="{ label: 'Most popular' }"
-            :button="{ label: 'Buy now', onClick: () => buyProduct(product) }"
+            :button="{ label: 'Buy now', click: () => buyProduct(product) }"
             orientation="vertical"
             align="bottom"
             :features="['One developer', 'Unlimited projects', 'Unlimited minor & patch updates', 'Lifetime access']"
@@ -108,13 +108,15 @@
 </template>
 
 <script lang="ts" setup>
+import type { CreemProduct } from '#creem/shared/types'
+
 definePageMeta({
   layout: 'shop'
 })
 
 const { productId } = useRoute().params
 
-const { data: product, status }: { data: CreemProduct } = await useFetch(`/api/v1/products`, {
+const { data: product, status } = await useFetch<CreemProduct>(`/api/v1/products`, {
   headers: {
     'Content-Type': 'application/json'
   },
